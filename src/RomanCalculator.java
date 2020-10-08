@@ -14,7 +14,7 @@ public class RomanCalculator extends Calculator {
         String secondRomanNumber = getExpression().substring(indexOfOperator + 1);
 
         RomanNumeral firstRomanNumeral = new RomanNumeral(firstRomanNumber);
-        RomanNumeral secondRomanNumeral = new RomanNumeral(firstRomanNumber);
+        RomanNumeral secondRomanNumeral = new RomanNumeral(secondRomanNumber);
 
         int firstNumber = firstRomanNumeral.toInt();
         int secondNumber = secondRomanNumeral.toInt();
